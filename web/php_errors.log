@@ -1,0 +1,33 @@
+[28-Feb-2017 11:18:17 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Symfony\Component\Config\Definition\Exception\InvalidConfigurationException' with message 'The child node "default_contexts" at path "sonata_block" must be configured.' in /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/ArrayNode.php:240
+Stack trace:
+#0 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/BaseNode.php(303): Symfony\Component\Config\Definition\ArrayNode->finalizeValue(Array)
+#1 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Processor.php(37): Symfony\Component\Config\Definition\BaseNode->finalize(Array)
+#2 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Processor.php(50): Symfony\Component\Config\Definition\Processor->process(Object(Symfony\Component\Config\Definition\ArrayNode), Array)
+#3 /var/www/vhosts/test7/vendor/sonata-project/block-bundle/DependencyInjection/SonataBlockExtension.php(57): Symfony\Component\Config\Definition\Pr in /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/ArrayNode.php on line 240
+[28-Feb-2017 11:20:28 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Symfony\Component\Config\Definition\Exception\InvalidConfigurationException' with message 'The child node "default_contexts" at path "sonata_block" must be configured.' in /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/ArrayNode.php:240
+Stack trace:
+#0 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/BaseNode.php(303): Symfony\Component\Config\Definition\ArrayNode->finalizeValue(Array)
+#1 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Processor.php(37): Symfony\Component\Config\Definition\BaseNode->finalize(Array)
+#2 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Processor.php(50): Symfony\Component\Config\Definition\Processor->process(Object(Symfony\Component\Config\Definition\ArrayNode), Array)
+#3 /var/www/vhosts/test7/vendor/sonata-project/block-bundle/DependencyInjection/SonataBlockExtension.php(57): Symfony\Component\Config\Definition\Pr in /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/ArrayNode.php on line 240
+[28-Feb-2017 11:20:28 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Symfony\Component\Config\Definition\Exception\InvalidConfigurationException' with message 'The child node "default_contexts" at path "sonata_block" must be configured.' in /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/ArrayNode.php:240
+Stack trace:
+#0 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/BaseNode.php(303): Symfony\Component\Config\Definition\ArrayNode->finalizeValue(Array)
+#1 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Processor.php(37): Symfony\Component\Config\Definition\BaseNode->finalize(Array)
+#2 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Processor.php(50): Symfony\Component\Config\Definition\Processor->process(Object(Symfony\Component\Config\Definition\ArrayNode), Array)
+#3 /var/www/vhosts/test7/vendor/sonata-project/block-bundle/DependencyInjection/SonataBlockExtension.php(57): Symfony\Component\Config\Definition\Pr in /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/ArrayNode.php on line 240
+[28-Feb-2017 11:20:30 Europe/Moscow] PHP Fatal error:  Uncaught exception 'Symfony\Component\Config\Definition\Exception\InvalidConfigurationException' with message 'The child node "default_contexts" at path "sonata_block" must be configured.' in /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/ArrayNode.php:240
+Stack trace:
+#0 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/BaseNode.php(303): Symfony\Component\Config\Definition\ArrayNode->finalizeValue(Array)
+#1 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Processor.php(37): Symfony\Component\Config\Definition\BaseNode->finalize(Array)
+#2 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/Processor.php(50): Symfony\Component\Config\Definition\Processor->process(Object(Symfony\Component\Config\Definition\ArrayNode), Array)
+#3 /var/www/vhosts/test7/vendor/sonata-project/block-bundle/DependencyInjection/SonataBlockExtension.php(57): Symfony\Component\Config\Definition\Pr in /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Config/Definition/ArrayNode.php on line 240
+[28-Feb-2017 11:51:50 Europe/Moscow] PHP Fatal error:  Uncaught exception 'UnexpectedValueException' with message 'The stream or file "/var/www/vhosts/test7/var/logs/dev.log" could not be opened: failed to open stream: Permission denied' in /var/www/vhosts/test7/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php:107
+Stack trace:
+#0 /var/www/vhosts/test7/vendor/monolog/monolog/src/Monolog/Handler/AbstractProcessingHandler.php(37): Monolog\Handler\StreamHandler->write(Array)
+#1 /var/www/vhosts/test7/vendor/monolog/monolog/src/Monolog/Logger.php(337): Monolog\Handler\AbstractProcessingHandler->handle(Array)
+#2 /var/www/vhosts/test7/vendor/monolog/monolog/src/Monolog/Logger.php(518): Monolog\Logger->addRecord(500, 'Uncaught Except...', Array)
+#3 /var/www/vhosts/test7/vendor/symfony/symfony/src/Symfony/Component/Debug/ErrorHandler.php(542): Monolog\Logger->log('critical', 'Uncaught Except...', Array)
+#4 [internal function]: Symfony\Component\Debug\ErrorHandler->handleException(Object(UnexpectedValueException))
+#5 {main}
+  thrown in /var/www/vhosts/test7/vendor/monolog/monolog/src/Monolog/Handler/StreamHandler.php on line 107
